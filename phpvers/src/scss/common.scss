@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin disc-style {
+  background-color: $bg-principale;
+  margin-bottom: 20px;
+  color: white;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}

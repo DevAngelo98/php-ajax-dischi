@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  height: 50px;
+}
+
+main {
+  background-color: grey;
+  padding: 50px 0;
+}
+
+.disc {
+  background-color: black;
+  margin-bottom: 20px;
+  color: white;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.disc img {
+  max-width: 100%;
+}
+

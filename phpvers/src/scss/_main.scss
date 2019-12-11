@@ -1,0 +1,12 @@
+main {
+  background-color: grey;
+  padding: 50px 0;
+}
+
+.disc{
+  @include disc-style;
+  @include flex-center;
+ img{
+   max-width: 100%;
+ }
+}
