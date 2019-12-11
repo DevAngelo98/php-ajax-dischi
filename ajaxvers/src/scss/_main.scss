@@ -1,6 +1,10 @@
 main {
   background-color: grey;
   padding: 50px 0;
+  min-height: 100vh;
+  .none{
+    display: none;
+  }
 }
 
 .disc{

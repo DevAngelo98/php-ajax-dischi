@@ -1,4 +1,12 @@
 header {
   background-color: $bg-principale;
   height: 50px;
+  @include flex-center;
+  a{
+    color: $text-color;
+    margin-left: 15px;
+    &:hover{
+      color: $text-color;
+    }
+  }
 }

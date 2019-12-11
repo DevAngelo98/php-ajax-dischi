@@ -14,7 +14,7 @@
 @mixin disc-style {
   background-color: $bg-principale;
   margin-bottom: 20px;
-  color: white;
+  color: $text-color;
   width: 60%;
   padding: 10px;
   text-align: center;

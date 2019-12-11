@@ -14,24 +14,37 @@
   <div class="all">
     <header>
       <div class="nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="artisti">
+                
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row tutti">
           
         </div>
       </div>
     </main>
   </div>
 
-  <script id="template-match" type="text/x-handlebars-template">
+  <script id="template-filter" type="text/x-handlebars-template">
+    <a href="#">{{artista}}</a>   
+  </script>
+
+  <script id="template-disc" type="text/x-handlebars-template">
     <div class="col-4">
       <div class="disc">
-      <img src="{{poster}}" alt="">
-      <h6>{{title}}</h6>
-      <p>{{author}}</p>
-      <p>{{year}}</p>
+        <img src="{{poster}}" alt="">
+        <h6>{{title}}</h6>
+        <p class="author">{{author}}</p>
+        <p>{{year}}</p>
       </div>
     </div>
   </script>
